@@ -1,3 +1,3 @@
 # test-project
-Just testing out some React, Next.js, Express
+Just testing out some React, Next.js, CSS, Express
 I am bored
