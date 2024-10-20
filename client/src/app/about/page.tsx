@@ -1,9 +1,9 @@
 import { Container, Title } from "@/components/StyledComponents";
 
-export default function ProductPage () {
+export default function AboutPage () {
   return (
     <Container>
-      <Title> Our Products </Title>
+      <Title> About Us </Title>
     </Container>
   );
 }
