@@ -77,7 +77,7 @@ export const updateProduct = async ( req: Request, res: Response ) => {
       res.status( 404 ).json( { error: 'product not found' } );
     } else {
       const updatedProduct = { id, name, description, price, stock };
-      res.json( updateProduct );
+      res.json( updatedProduct );
     }
   } catch ( error ) {
     console.error( error )
