@@ -16,15 +16,18 @@ export const Title = styled.h1`
 `
 
 export const Button = styled.button`
-  background-color: ${ props => props.theme.colors.primary };
-  color: ${ props => props.theme.colors.text };
+  padding: 1rem 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 600;
+  color: white;
+  background: linear-gradient(45deg, #FF6B6B, #FF8E53);
   border: none;
-  border-radius: 4px;
-  padding: ${ props => props.theme.spacing.small } ${ props => props.theme.spacing.medium };
+  border-radius: 2rem;
   cursor: pointer;
-  transition: background-color ${ props => props.theme.transitions.default };
-  
+  transition: transform 0.2s ease, box-shadow 0.2s ease;
+
   &:hover {
-    background-color: ${ props => props.theme.colors.secondary };
+    transform: translateY(-2px);
+    box-shadow: 0 4px 12px rgba(255, 107, 107, 0.2);
   }
-`
+`;

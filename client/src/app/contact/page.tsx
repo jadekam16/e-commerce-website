@@ -1,6 +1,6 @@
 'use client'
 
-import { Container, Title } from "@/components/StyledComponents";
+import { Container, Title, Button } from "@/components/StyledComponents";
 import styled from 'styled-components'
 import React, { useState } from 'react'
 
@@ -33,23 +33,6 @@ const Input = styled.input`
     outline: none;
     /* Change COLOR HERE COS ITS UGLY */
     border-color: ${ props => props.theme.colors.secondary }
-  }
-`
-
-const Button = styled.button`
-  background-color: ${ props => props.theme.colors.primary };
-  border: none;
-  border-radius: 17px;
-  padding: 10px 20px;
-  transition: background-color 0.2s;
-
-  &:hover {
-    background: ${ props => props.theme.colors.secondary }
-  }
-
-  &:disabled {
-    background: #ccc;
-    cursor: not-allowed;
   }
 `
 
